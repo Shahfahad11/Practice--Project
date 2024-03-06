@@ -6,12 +6,58 @@
     <title>Portfolio</title>
 </head>
 <body>
-   <center><b><a href="Homepage.html"><b>HOME</b></a>
+
+    <form>
+        <h1>REGISTRATION FORM</h1> 
+        
+        <p>Upload Picture:</p>
+        Image:<input type="file" name="image">
+        <input type="submit" value="Upload">
+        <br>
+        <br>
+        Name: <input type="text" placeholder="Enter First Name" name="First Name" size="20" required="required">
+        <input type="text" placeholder="Enter Last Name" name="Last Name" size="25" required="required"> 
+        <br>
+        <br>
+        Company: <input type="text" placeholder="Enter Company Name" name="Company" size="48" required="required"> 
+        <br>
+        <br>
+        Email: <input type="email" placeholder="Example@gmail.com" name="email" size="49" required="required"> 
+        <br>
+        <br>
+        Phone:<select>
+            <option>country code</option>
+            <option>+92</option>
+        </select>
+        <input type="phone" name="number" size="35" required="required"> 
+        <br>
+        <br>
+        Pasword: <input type="password" placeholder="Enter Password" name="password" size="48" required="required">
+        <br>
+        <br>
+        Date Of Birth: <input type="date" name="date of birth" required="required"> 
+        <br>
+        <br>
+        Select your gender: <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female 
+        <br>
+        <br>
+       <input type="checkbox" name="checkbox" required="required">Remember me on this site.
+       <br>
+       <br>
+       <input type="submit" value="Register">
+         
+</form>
+<br>
+<hr><hr>
+
+   <center><b><a href="index.html"><b>HOME</b></a>
     <a href="./Skill.html"><b>SKILL</b></a>
     <a href="./Project.html"><b>PROJECT</b></a>
     <a href="./Contant.html"><b>CONTRACT</b></a></b></center>
     <hr>
     <h1><u>HOME PAGE:</u></h1>
+    <!--add image-->
     <center><img src="./khan.jpg" alt="My Picture" title="Shah Fahad" width="300"></center>
     <center><h1><U>MY INTRODUCTION</U>:</h1></center>
     <dl>
@@ -25,7 +71,7 @@
         <dd>Agriculture university peshawar</dd>
         <br>
         <dt><h2><u>ACADEMY:</u></h2></dt>
-        <dd>I am currently learning web and apps development in the academy of SMIT. I am currently wotk on HTML.</dd>
+        <dd>I am currently learning web and apps development in the academy of SMIT. I am currently work on HTML.</dd>
         <br>
         <dt><h2><u>ADDRESS:</ADDress></u></h2></dt>
         <dd>Khazana Sugur Mill Al-Noor Colony Charsadda Road Peshawar</dd>
@@ -40,6 +86,7 @@
             background-color: lightblue;
         }
     </style>
+    <!--This is table-->
     <h1><u>TABLE:</u></h1>
     <table border="2" width="1200" height="200">
         <center><h1><u>MY EDUCATION:</u></h1></center>
@@ -78,11 +125,12 @@
         </tr>
     </table>
     <ul>
-        <li><a href="./Homepage.html"><b>MY EDUCATION TABLE</b></a></li>
+        <li><a href="./index.html"><b>MY EDUCATION TABLE</b></a></li>
         <li><a href="./Skill.html"><b>MY SKILL TABLE</b></a></li>
         <li><a href="./Project.html"><b>MY PROJECT TABLE</b></a></li>
         <li><a href="./Contant.html"><b>CONTACT</b></a></li>
     </ul>
+    <hr><hr>
 
 </body>
 </html>
